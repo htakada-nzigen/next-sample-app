@@ -1,16 +1,7 @@
 // eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
-import { ButtonVariant } from '@/components/atoms/Button'
-import { TextVariant } from '@/components/atoms/Text'
 import type { Responsive } from '@/types/styles'
-import {
-  toPropValue,
-  Color,
-  FontSize,
-  LetterSpacing,
-  LineHeight,
-  Space,
-} from '@/utils/styles'
+import { toPropValue, Color } from '@/utils/styles'
 
 export type TestProps = {
   color?: Responsive<Color>

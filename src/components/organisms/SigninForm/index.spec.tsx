@@ -14,7 +14,6 @@ describe('SignForm', () => {
   let handleSignin: jest.Mock
 
   beforeEach(() => {
-    // @ts-expect-error
     handleSignin = jest.fn()
     renderResult = render(
       <ThemeProvider theme={theme}>

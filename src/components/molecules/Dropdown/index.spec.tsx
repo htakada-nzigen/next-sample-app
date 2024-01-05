@@ -14,7 +14,6 @@ describe('Dropdown', () => {
   let handleChange: jest.Mock
 
   beforeEach(() => {
-    // @ts-expect-error
     handleChange = jest.fn()
     renderResult = render(
       <ThemeProvider theme={theme}>

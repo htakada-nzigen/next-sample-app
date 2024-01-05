@@ -1,13 +1,13 @@
+import { expect } from '@storybook/test'
 import { render, screen, RenderResult } from '@testing-library/react'
 import { ThemeProvider } from 'styled-components'
 import Header from './index'
 import { AuthContextProvider } from '@/contexts/AuthContext'
-import { theme } from '@/themes'
-import type { User, Product } from '@/types'
 
 jest.mock('contexts/ShoppingCartContext')
 import { useShoppingCartContext } from '@/contexts/ShoppingCartContext'
-import { expect } from '@storybook/test'
+import { theme } from '@/themes'
+import type { User, Product } from '@/types'
 const { ShoppingCartContextProvider } = jest.requireActual(
   'contexts/ShoppingCartContext',
 )

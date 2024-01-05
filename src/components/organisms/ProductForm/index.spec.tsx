@@ -12,11 +12,9 @@ import { theme } from '@/themes'
 describe('ProductForm', () => {
   let renderResult: RenderResult
   let handleProductSave: jest.Mock
-  //　スタブ
   global.URL.createObjectURL = () => 'https://test.com'
 
   beforeEach(() => {
-    // @ts-expect-error
     handleProductSave = jest.fn()
     renderResult = render(
       <ThemeProvider theme={theme}>
