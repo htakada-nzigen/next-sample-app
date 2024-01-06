@@ -72,13 +72,6 @@ const generateSitemapXML = (baseURL: string, sitemapInfo: SitemapInfo[]) => {
         switch (key) {
           case 'path':
             return `<loc>${baseURL}${value}</loc>`
-          case 'lastmod': {
-            const year = value.getFullYear()
-            const month = value.getMonth() + 1
-            const day = value.getDate()
-
-            return `<lastmod>${year}-${month}-${day}</lastmod>`
-          }
           default:
             return `<${key}>${value}</${key}>`
         }
@@ -95,10 +88,7 @@ const generateSitemapXML = (baseURL: string, sitemapInfo: SitemapInfo[]) => {
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   const host = req?.headers?.host ?? 'localhost'
-  const protocol =
-    req.headers['x-forwarded-proto'] || req.connection.encrypted
-      ? 'https'
-      : 'http'
+  const protocol = req.headers['x-forwarded-proto'] ? 'https' : 'http'
 
   const base = `${protocol}://${host}`
   const sitemapInfo = [
