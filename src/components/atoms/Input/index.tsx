@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import styled, { css } from 'styled-components'
 
 /**

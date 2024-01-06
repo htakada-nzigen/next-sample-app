@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import ScaleImage from '@/components/atoms/ScaleImage'
 import Text from '@/components/atoms/Text'

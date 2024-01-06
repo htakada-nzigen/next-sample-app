@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React, { useState, useEffect } from 'react'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import ImagePreview from './'
 import Dropzone from '@/components/molecules/Dropzone'

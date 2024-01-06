@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import BreadcrumbItem from '@/components/atoms/BreadcrumbItem'
 import Text from '@/components/atoms/Text'

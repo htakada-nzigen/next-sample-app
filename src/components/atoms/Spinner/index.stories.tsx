@@ -1,4 +1,5 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import Spinner from './index'
 

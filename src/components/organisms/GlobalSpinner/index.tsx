@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import Spinner from '@/components/atoms/Spinner'
 import { useGlobalSpinnerContext } from '@/contexts/GlobalSpinnerContext'

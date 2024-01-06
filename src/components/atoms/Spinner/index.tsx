@@ -1,4 +1,5 @@
 import * as React from 'react'
+// eslint-disable-next-line import/no-named-as-default
 import styled, { css } from 'styled-components'
 
 const StyledSpinner = styled('svg').withConfig({

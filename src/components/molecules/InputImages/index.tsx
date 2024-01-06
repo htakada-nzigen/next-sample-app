@@ -1,4 +1,5 @@
 import React, { useCallback, useMemo } from 'react'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import Box from '@/components/layout/Box'
 import Flex from '@/components/layout/Flex'

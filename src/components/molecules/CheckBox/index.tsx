@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import {
   CheckBoxOutlineBlankIcon,

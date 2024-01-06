@@ -1,4 +1,5 @@
 import Link from 'next/link'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import { GitHubIcon } from '@/components/atoms/IconButton'
 import Text from '@/components/atoms/Text'

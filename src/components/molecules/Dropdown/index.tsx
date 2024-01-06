@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import Text from '@/components/atoms/Text'
 import Flex from '@/components/layout/Flex'

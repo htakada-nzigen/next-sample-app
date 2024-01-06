@@ -1,4 +1,5 @@
 import Image, { ImageProps } from 'next/image'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import { Responsive } from '@/types'
 import { toPropValue } from '@/utils/styles'

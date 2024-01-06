@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import { CloudUploadIcon } from '@/components/atoms/IconButton'
 

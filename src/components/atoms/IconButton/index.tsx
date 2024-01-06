@@ -11,6 +11,7 @@ import {
   Person,
 } from '@mui/icons-material'
 import SvgIcon from '@mui/material/SvgIcon'
+// eslint-disable-next-line import/no-named-as-default
 import styled from 'styled-components'
 import { theme } from '@/themes'
 
