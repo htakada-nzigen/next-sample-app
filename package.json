@@ -22,6 +22,8 @@
     "@mui/icons-material": "^5.15.2",
     "@mui/material": "^5.15.2",
     "next": "14.0.4",
+    "pino": "^8.17.2",
+    "pino-logflare": "^0.4.2",
     "react": "^18",
     "react-content-loader": "^6.2.1",
     "react-dom": "^18",
